@@ -1,11 +1,9 @@
 .Horizontal{
     display: flex;
     gap: 30px;
-    background-color: black;
-     color: white;
     list-style: none;
-    height: 50px;
-    font-size: 20px;
+    height: 30px;
+    font-size: 17px;
     padding: 30px 10px;
    
 }
@@ -16,5 +14,5 @@ img{
 .Seclist{
     display: flex;
    gap: 30px;
- margin-left: 260px;
+   margin-left: 300px;
 }

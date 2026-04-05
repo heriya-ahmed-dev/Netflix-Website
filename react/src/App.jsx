@@ -1,11 +1,19 @@
 import React from 'react'
-import Home from './Home.jsx'
+
+import Header from './Header.jsx';
+import Banner from './banner.jsx';
+import Footer from './Footer.jsx';
+import RowList from './Row_bar/rowList.jsx';
+
+
 
 const App = () => {
   return (
     <div>
-      <Home/>
-
+      <Header/>
+      <Banner/>
+      <RowList/>
+      <Footer/>
     </div>
   )
 }
